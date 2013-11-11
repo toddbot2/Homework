@@ -1,0 +1,35 @@
+.grid-container{
+	margin: 10px 0 10px 0;
+	text-align: center;
+
+}
+
+.inside{
+	background-color:#95A5A6;
+	padding:15px 0 15px 0;
+	margin:2px 0 2px 0;
+	border: black solid 2px;
+}
+
+.box{
+	min-height:280px;
+	background-color:#1ABC9C;
+	border-radius:40%;
+	box-shadow: 10px 10px #16A085 inset;
+}
+
+.outer{
+	font-family: Halion;
+	font-size:80px;
+	color:#34495E;
+}
+
+.inner{
+	font-family: "Europe Underground";
+	font-size:30px;
+	color:#D35400;
+}
+
+.inner-outer{
+	padding-left:none;	
+}

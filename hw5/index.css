@@ -1,0 +1,106 @@
+html {
+	background-color: #bdc3c7;
+}
+
+div{
+	margin:10px 0 10px 0;
+}
+
+.text{
+	padding:50px;
+	min-height: 200px;
+	text-align: center;
+	font-family: Haettenschweiler;
+	font-size: 60px;
+}
+
+.one{
+	background-color: #1abc9c;
+}
+
+.two{
+	background-color: #2ecc71;
+}
+
+.three{
+	background-color: #3498db;
+}
+
+.four{
+	background-color: #9b59b6;
+}
+
+.five{
+	background-color: #34495e;
+}
+
+.six{
+	background-color: #f1c40f;
+}
+
+.seven{
+	background-color: #e74c3c;
+}
+
+/*First break ----------------------- */
+@media (max-width: 1130px) {
+.rotate{
+	-webkit-transform: rotate(90deg); 
+  -moz-transform: rotate(90deg);	
+}}
+
+/*Second break ------------------------ */
+@media (min-width: 320px) and (max-width: 767px) {
+	.text{
+		min-height:100px;
+		padding:10px;
+	}
+
+	.grid-container{
+		display: -webkit-flex;
+	    display: flex;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.rotate{
+		-webkit-transform: rotate(0deg); 
+  	-moz-transform: rotate(0deg);	
+	}
+	
+.one{
+}
+
+.two{
+	background-color: #2ecc71;
+}
+
+.three{
+	background-color: #3498db;
+}
+
+.four{
+	background-color: #9b59b6;
+}
+
+.five{
+	background-color: #34495e;
+}
+
+.six{
+	background-color: #f1c40f;
+}
+
+.seven{
+
+}
+
+.third{
+	
+}
+
+.first{
+	-webkit-order: 1;
+    	order: 1;
+}
+}
