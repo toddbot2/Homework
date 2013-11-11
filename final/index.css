@@ -25,19 +25,35 @@ p{
 
 article{
 	/*padding:20px;*/
-	min-height: 550px;
+	min-height: 470px;
 }
 
 .nav-bar{
 	background-color: #27ae60;
-	padding:20px;
+	padding:45px;
 }
 
-.three-box{
+.nav-boxes{
 	display:-webkit-flex;
 	display:flex;
 	-webkit-flex-direction:column;
 	flex-direction:column;
-	 -webkit-justify-content: space-around;
-    justify-content: space-around;
+	 -webkit-justify-content: space-between;
+    justify-content: space-between;
+    font-size: 46px;
+    text-align: center;
+}
+
+header{
+	background-color: #f1c40f;
+	padding:20px;
+	margin:20px 10px 20px 10px;
+}
+
+.circles{
+	min-height:200px;
+	min-width:200px;
+	background-color: #ecf0f1;
+	margin-top:20px;
+	border-radius: 50%;
 }
