@@ -1,0 +1,43 @@
+body{
+	font-family: "Aurora condensed";
+	background-color: #7f8c8d;
+}
+
+p{
+	background-color: #2980b9;
+	padding:20px;
+	min-height: 100px;
+}
+
+.article-one {
+	background-color: #2980b9;
+	padding:20px;
+	min-height: 100px;
+}
+
+.article-two {
+	background-color: #2980b9;
+	padding:20px;
+	min-height: 100px;
+}
+
+
+
+article{
+	/*padding:20px;*/
+	min-height: 550px;
+}
+
+.nav-bar{
+	background-color: #27ae60;
+	padding:20px;
+}
+
+.three-box{
+	display:-webkit-flex;
+	display:flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+	 -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
